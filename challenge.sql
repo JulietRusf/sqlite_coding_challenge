@@ -83,14 +83,3 @@ GROUP BY c.city
 ORDER BY gold_customer_count DESC, c.city ASC;
 
 
--- TASK 4 (RECOMMENDED EXTENSION): Loyalty Distribution by City
--- This helps identify geographic patterns across loyalty tiers.
-SELECT
-    c.city,
-    SUM(CASE WHEN c.loyalty_level = 'Gold' THEN 1 ELSE 0 END) AS gold_count,
-    SUM(CASE WHEN c.loyalty_level = 'Silver' THEN 1 ELSE 0 END) AS silver_count,
-    SUM(CASE WHEN c.loyalty_level = 'Bronze' THEN 1 ELSE 0 END) AS bronze_count,
-    COUNT(*) AS total_customers
-FROM customers AS c
-GROUP BY c.city
-ORDER BY gold_count DESC, total_customers DESC, c.city ASC;
