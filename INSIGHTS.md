@@ -4,7 +4,7 @@
 
 - The top two customers (Jacob Foster and Ethan Gomez) spend significantly more than the rest of the customer base, suggesting that a small group of customers contributes a disproportionate share of total revenue.
 
-- Electronics is by far the top-performing product category, generating $25,364.23 in revenue. This is roughly double the revenue of the next highest category (Furniture), making it the primary driver of overall sales.
+- Electronics is by far the top-performing product category generating $25,364.23 in revenue. This is roughly double the revenue of the next highest category (Furniture), making it the primary driver of overall sales.
 
 - Furniture is the second strongest category, but there is a steep drop-off after it, indicating reliance on a limited number of categories.
 
